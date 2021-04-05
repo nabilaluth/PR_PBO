@@ -8,6 +8,8 @@ Perubahan yang dibuat :
 
 1. Kelas Item yang sudah ada dibuat menjadi parent, akan tetapi namanya diubah menjadi Objek. kodingan di dalamnya tinggal di sesuaikan saja.
 2. Kelas Objek ini memiliki 3 Child yaitu, Npc(nanti di dalemnya ada item kunci), ItemGaBisaDiambil(pintu), ItemBisaDiambil(roti,cincin)              --> Inheritancenya
+
+
         - Kelas child npc
         public class Npc extends Objek {
             private ItemBisaDiambil objKunci;
@@ -49,6 +51,8 @@ Perubahan yang dibuat :
         
 4. Jangan lupa untuk memberikan override di aksi-aksi di dalam kelas child agar saat program berjalan tidak ke parent-nya 
 5. Polymorphismnya ada pada saat perulangan output Objek-objek di kelas ruangan. jadi seluruh kelas yang memiliki parent yang sama tidak perlu print secara terpisah, bisa dilakukan print langsung karena sudah ditampung di arrayList di kelas Objek
+
+
         public void pilihanAksi() {
 
         System.out.println("==== Pilihan Aksi pada Ruangan ===");
