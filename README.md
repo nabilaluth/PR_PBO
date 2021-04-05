@@ -10,8 +10,8 @@ Perubahan yang dibuat :
 2. Kelas Objek ini memiliki 3 Child yaitu, Npc(nanti di dalemnya ada item kunci), ItemGaBisaDiambil(pintu), ItemBisaDiambil(roti,cincin)              --> Inheritancenya
 
 
-        - Kelas child npc
-        public class Npc extends Objek {
+            - Kelas child npc
+            public class Npc extends Objek {
             private ItemBisaDiambil objKunci;
             private GameInfo objGameInfo;
             private boolean isKenal=false;
@@ -31,7 +31,7 @@ Perubahan yang dibuat :
                 super.setNama(nama);
             }}
             
-           - Kelas child ItemGaBisaDiambil
+            - Kelas child ItemGaBisaDiambil
             public class ItemGaBisaDiambil extends Objek{
             public ItemGaBisaDiambil(String nama){
                 ArrayList<String> arrAksi = new ArrayList<>();
